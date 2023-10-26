@@ -9,13 +9,4 @@ window.addEventListener('scroll', () => {
 
     const scrollPosition = window.screenY;
     const triggerPosition = document.getElementById('whyMTE')
-
-    if (scrollPosition >= triggerPosition) {
-        whyMTE1.classList.add('fadeIn')
-        whyMTE2.classList.add('fadeIn', 'moveInLeft')
-        whyMTE3.classList.add('fadeIn', 'moveInLeft')
-        whyMTE4.classList.add('fadeIn', 'moveInLeft')
-        whyMTE5.classList.add('fadeIn', 'moveInLeft')
-        whyMTE6.classList.add('fadeIn', 'moveInLeft')
-    }
 })
