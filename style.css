@@ -1,0 +1,263 @@
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.cta-link {
+	color: white;
+}
+
+.cta-link:hover {
+	color: orange;
+}
+
+.cta-link::after {
+	color: purple;
+}
+
+.nav {
+	background-color: #6f8faf;
+	border-color: lightgray;
+	border-style: solid;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.nav-title {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 16px;
+	list-style: none;
+	text-decoration: none;
+}
+
+.nav-title a {
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+
+.nav-title a:hover {
+	color: orange;
+}
+
+.nav-link {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 16px;
+	list-style: none;
+	display: flex;
+	float: right;
+}
+
+.nav-link a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-link a:hover {
+	color: orange;
+}
+
+.welcome {
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.welcome-title {
+	font-family: 'Lato';
+	font-weight: 700;
+}
+
+.welcome-body {
+	font-family: 'Lato';
+	font-weight: 400;
+}
+
+.welcome-body_box {
+	animation-name: fadeIn, moveInLeft;
+	animation-duration: 3s;
+}
+
+.appointment {
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.appointment-title {
+	font-family: 'Lato';
+	font-weight: 700;
+}
+
+.appointment-body {
+	font-family: 'Lato';
+	font-weight: 400;
+}
+
+.button {
+	background-color: #d3d3d3;
+	border: none;
+	border-radius: 2rem;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button:hover {
+	background-color: orange;
+}
+
+.subject {
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.schedule {
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.whyMTE {
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.footer {
+	height: 5vh;
+	bottom: 0px;
+	margin: 1rem;
+	padding: 1rem;
+	position: relative;
+	background-color: #fff;
+}
+
+.footer-title {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: smaller;
+	margin: auto;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.callToAction {
+	background-color: #6f8faf;
+	color: white;
+	padding: 1rem;
+}
+
+.callToAction p,
+.callToAction h2 {
+	margin: 1rem;
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 100;
+	}
+}
+
+@keyframes moveInLeft {
+	from {
+		position: relative;
+		right: -50%;
+	}
+	to {
+		position: relative;
+		right: 0%;
+	}
+}
+
+/* Screen Sizes */
+
+/* Tablet */
+@media screen and (min-width: 760px) {
+	.nav {
+		padding: 3rem;
+	}
+
+	.welcome {
+		padding: 3rem;
+	}
+
+	.subject {
+		padding: 3rem;
+	}
+
+	.schedule {
+		padding: 3rem;
+	}
+
+	.whyMTE {
+		padding: 3rem;
+	}
+
+	.appointment {
+		padding: 3rem;
+	}
+
+	.callToAction {
+		padding: 3rem;
+	}
+}
+
+/* Desktop */
+@media screen and (min-width: 1020px) {
+	.nav {
+		padding: 5rem;
+	}
+
+	.welcome {
+		padding: 5rem;
+	}
+
+	.subject {
+		padding: 5rem;
+	}
+
+	.schedule {
+		padding: 5rem;
+	}
+
+	.whyMTE {
+		padding: 5rem;
+	}
+
+	.appointment {
+		padding: 5rem;
+	}
+
+	.callToAction {
+		padding: 5rem;
+	}
+}
+
+#whyMTE-1 {
+	animation-duration: 3s;
+}
+#whyMTE-2 {
+	animation-duration: 3s;
+}
+#whyMTE-3 {
+	animation-duration: 3s;
+}
+#whyMTE-4 {
+	animation-duration: 3s;
+}
+#whyMTE-5 {
+	animation-duration: 3s;
+}
+#whyMTE-6 {
+	animation-duration: 3s;
+}
