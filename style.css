@@ -96,10 +96,10 @@
 }
 
 .button {
-	background-color: #d3d3d3;
+	background-color: #6f8faf;
 	border: none;
 	border-radius: 2rem;
-	color: black;
+	color: white;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
@@ -107,8 +107,15 @@
 	font-size: 16px;
 }
 
+.button a {
+	color: white;
+	text-decoration: none;
+}
+
 .button:hover {
 	background-color: orange;
+	scale: 0.85;
+	transition: 1s ease-in-out;
 }
 
 .subject {
@@ -171,7 +178,7 @@
 @keyframes moveInLeft {
 	from {
 		position: relative;
-		right: -50%;
+		right: -100%;
 	}
 	to {
 		position: relative;
@@ -241,23 +248,4 @@
 	.callToAction {
 		padding: 5rem;
 	}
-}
-
-#whyMTE-1 {
-	animation-duration: 3s;
-}
-#whyMTE-2 {
-	animation-duration: 3s;
-}
-#whyMTE-3 {
-	animation-duration: 3s;
-}
-#whyMTE-4 {
-	animation-duration: 3s;
-}
-#whyMTE-5 {
-	animation-duration: 3s;
-}
-#whyMTE-6 {
-	animation-duration: 3s;
 }
